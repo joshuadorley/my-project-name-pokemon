@@ -1,0 +1,47 @@
+/* Container for each individual Pokémon card */
+.pokemon-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pokemon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Pokémon image styling */
+  .pokemon-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Pokémon name styling */
+  .pokemon-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Pokémon type styling */
+  .pokemon-card .type {
+    font-size: 14px;
+    color: #888;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  
+  /* Pokémon weaknesses styling */
+  .pokemon-card .weaknesses {
+    font-size: 12px;
+    color: #f44336; /* Red color for weaknesses */
+    text-transform: capitalize;
+  }
